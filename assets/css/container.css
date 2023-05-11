@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Sora:wght@300;400;500&display=swap');
+/* 
+font-family: 'IBM Plex Sans', sans-serif;
+font-weight: 300;
+font-weight: 400;
+font-family: 'Sora', sans-serif;
+font-weight: 300;
+font-weight: 400;
+ */
+
+/* .container-mobile-menor {
+    max-width: 360px;
+}
+
+.container-mobile-maior {
+    min-width: 361px;
+    max-width: 576px;
+}
+
+.container-tablet {
+    min-width: 577px;
+    max-width: 768px;
+}
+
+.container-notebook {
+    min-width: 769px;
+    max-width: 992px;
+}
+
+.container-desktop-normal {
+    min-width: 993px;
+    max-width: 1200px;
+}
+
+.container-desktop-grande {
+    min-width: 1201px;
+    max-width: 1400px;
+}
+
+.container-ultrawide {
+    min-width: 1401px;
+    max-width: 1920px;
+}
+
+.container-ultrawide {
+    min-width: 1921px;
+    max-width: 2400px;
+} */
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fonte1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 300;
+}
+
+.fonte2 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 300;
+}
+.none{
+    display: none;
+}

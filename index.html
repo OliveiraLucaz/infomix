@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Mix:: Notícias quentinhas a todo minuto</title>
+    <link rel="shortcut icon" href="assets/imagens/icon/icon.ico.png">
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/container.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/mediaqueries.css" />
+    <link rel="stylesheet" href="assets/css/animacoes.css" />
+    <style>
+
+    </style><!-- coloque aqui no style todas as fontes importadas -->
+</head>
+
+<body>
+
+    <header class="">
+        <div class="header">
+            <div class="header--limites display">
+                <div class="ladoesquerdo display">
+                    <div class="icone--menu">
+                        <img src="assets/imagens/icon/menu.png">
+                    </div>
+                    <div class="botoes display none">
+
+                        <div class="botao1">
+                            <button class="botao display">
+                                <img src="assets/imagens/icon/livro.png" alt="botao" class="img-botoes">
+                                <p>Jornal</p>
+                            </button>
+                        </div>
+                        <div class="botao2">
+                            <button class="botao display">
+                                <img src="assets/imagens/icon/e-mail.png" alt="botao" class="img-botoes">
+                                <p class="text">NewsLetter</p>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="meio display">
+                    <div class="logo">
+                        <img src="assets/imagens/img/logo-big-text-medium.png" alt="logo">
+                    </div>
+                </div>
+                <div class="ladodireito display">
+                    <div class="campo--pesquisa display">
+                        <div class="campo__input display">
+                            <input type="text" class="fonte1">
+                        </div>
+
+                        <div class="lupa display" style="cursor: pointer;">
+                            <img src="assets/imagens/icon/lupa.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="menu display fonte1">
+                <ul class="display">
+                    <li>Home</li>
+                    <li>Cultura</li>
+                    <li>Entretenimento</li>
+                    <li>Música</li>
+                    <li>Cinema</li>
+                    <li>Jornal</li>
+                    <li>Agenda</li>
+                    <li>TV</li>
+                    <li>Cultura</li>
+                    <li>Entretenimento</li>
+                    <li>Música</li>
+                    <li>Cinema</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner--noticias display fonte2">
+        <div class="banner--noticias__container display">
+            <div class="banner--noticias__topo display">
+                <div class="item1 display">CATEGORIA</div>
+                <div class="item2 display">
+                    <img src="assets/imagens/icon/send.png" alt="compartilhe">
+                    <p>Compartilhe</p>
+                </div>
+            </div>
+            <div class="banner--noticias__baixo display">
+                <p class="subtitulo">ORA, BOLAS!</p>
+                <h1 class="titulo">Copa, Seleção e um torcedor reformado</h1>
+                <div class="cards display">
+                    <div class="card card1">
+                        <p class="card--subtitulo">ORA, BOLAS!</p>
+                        <p class="card--titulo">O que abre e o que fecha em dia de jogo do Brasil na copa? Confira!</p>
+                    </div>
+                    <div class="card card2">
+                        <p class="card--subtitulo">ORA, BOLAS!</p>
+                        <p class="card--titulo">Copa do mundo Qatar começa com grandes apostas para anfitriões</p>
+                    </div>
+                    <div class="card card3">
+                        <p class="card--subtitulo">ORA, BOLAS!</p>
+                        <p class="card--titulo">Com Ronaldo sob pressão, Portugal é o protagonista do grupo H</p>
+                    </div>
+                    <div class="card card4">
+                        <p class="card--subtitulo">ORA, BOLAS!</p>
+                        <p class="card--titulo">Brasil enfrentará equipe forte da sérvia em estreia no Qatar</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner--noticias2 display fonte1">
+        
+        <section class="carrossel">
+            <div class="banner--noticias__topo display">
+                <div class="item1 display">CATEGORIA</div>
+                <div class="item2 display">
+                    <img src="assets/imagens/icon/send.png" alt="compartilhe">
+                    <p>Compartilhe</p>
+                </div>
+            </div>
+            <div class="itenss" id="itenss">
+                <div class="item item1" style="background-image: url('./assets/imagens/img/estacao.jpg');">
+                
+                </div>
+                <div class="item item2" style="background-image: url('./assets/imagens/img/alagamento.jpg');"></div>
+                <div class="item item3" style="background-image: url('./assets/imagens/img/cachorros.jpeg');"></div>
+                <div class="item item4" style="background-image: url('./assets/imagens/img/familia.jpg');"></div>
+                <div class="item item5" style="background-image: url('./assets/imagens/img/emprego.jpg');"></div>
+            </div>
+           <!-- <div class="botoes--controles">
+            <div class="botao botao1" id="botao1" onclick="teste('botao1')"></div>
+            <div class="botao botao2" onclick="teste('botao2')"></div>
+            <div class="botao botao3" onclick="teste('botao3')"></div>
+            <div class="botao botao4" onclick="teste('botao4')"></div>
+            <div class="botao botao5" onclick="teste('botao5')"></div>
+        </div>  -->
+            
+        </section>
+        
+
+       
+        <div class="card--noticia card--noticia2 display">
+            <div class="banner--noticias__topo display">
+                <div class="item1 display">CATEGORIA</div>
+                <div class="item2 display">
+                    <img src="assets/imagens/icon/send.png" alt="compartilhe">
+                    <p>Compartilhe</p>
+                </div>
+            </div>
+            <div class="descricao">
+                <p class="card--subtitulo">METRÔ</p>
+                <p class="card--titulo">Tatuzão voltará a escavar nova linha do metrô seis meses após cratera abrir</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    
+
+
+
+    <section class="sub--headline fonte1">
+        <div class="sub--headline__areas display">
+            <div class="area1 display">
+                <div class="descricao--headline">
+                    <p class="card--subtitulo">FAMOSOS</p>
+                    <p class="card--titulo">Luana Piovani compartilha novo projeto com seguidores: 'Tão feliz'</p>
+                </div>
+                <div class="descricao--headline">
+                    <p class="card--subtitulo">STREAMING EM ALTA</p>
+                    <p class="card--titulo">Estreias da Amazon Prime Video em Julho incluem 'Casa Gucci' e 'Spencer'</p>
+                </div>
+                <div class="descricao--headline">
+                    <p class="card--subtitulo">NA SUA REGIÃO</p>
+                    <p class="card--titulo">Cinemateca exibe versão restaurada de 'Deus e o diabo na Terra do Sol'</p>
+                </div>
+            </div>
+            <div class="area2">
+                <div class="descricao--headline display">
+                    <div class="descricao--headline_img">
+                        <img src="https://portalpopline.com.br/wp-content/uploads/2021/09/luana-piovani-influenciadores.jpg"
+                            alt="artistas">
+                    </div>
+                    <div class="descricao--headline_infos">
+                        <p class="card--subtitulo">FAMOSOS</p>
+                        <p class="card--titulo">Luana Piovani compartilha novo projeto com seguidores: 'Tão feliz'</p>
+                    </div>
+                </div>
+                <div class="descricao--headline display">
+                    <div class="descricao--headline_img">
+                        <img src="http://store-images.s-microsoft.com/image/apps.32357.14618985536919905.4b30e4f3-f7a1-4421-840c-2cc97b10e8e0.6e7a96f1-33ad-4447-8e2b-7de730f9a05e"
+                            alt="artistas">
+                    </div>
+                    <div class="descricao--headline_infos">
+                        <p class="card--subtitulo">STREAMING EM ALTA</p>
+                        <p class="card--titulo">Estreias da Amazon Prime Video em Julho incluem 'Casa Gucci' e 'Spencer'
+                        </p>
+                    </div>
+                </div>
+                <div class="descricao--headline display">
+                    <div class="descricao--headline_img">
+                        <img src="https://www.redebrasilatual.com.br/wp-content/uploads/2022/03/cine03.jpeg"
+                            alt="artistas">
+                    </div>
+                    <div class="descricao--headline_infos">
+                        <p class="card--subtitulo">NA SUA REGIÃO</p>
+                        <p class="card--titulo">Cinemateca exibe versão restaurada de 'Deus e o diabo na Terra do Sol'
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="area3">
+                <div class="descricao--headline__area3 display">
+                    <div class="descricao--headline__loterias display">
+                        <p class="card--subtitulo">Lotomania</p>
+                        <p class="descricao">Consurso 2336 (01/01/2023)</p>
+                        <div class="numeros display">
+                            <div class="valores display">01</div>
+                            <div class="valores display">02</div>
+                            <div class="valores display">03</div>
+                            <div class="valores display">04</div>
+                            <div class="valores display">05</div>
+                            <div class="valores display">06</div>
+                            <div class="valores display">07</div>
+                            <div class="valores display">08</div>
+                            <div class="valores display">09</div>
+                            <div class="valores display">10</div>
+                            <div class="valores display">11</div>
+                            <div class="valores display">12</div>
+                            <div class="valores display">13</div>
+                            <div class="valores display">14</div>
+                            <div class="valores display">15</div>
+                            <div class="valores display">16</div>
+                            <div class="valores display">17</div>
+                            <div class="valores display">18</div>
+                            <div class="valores display">19</div>
+                            <div class="valores display">20</div>
+                        </div>
+                        <div class="reticencias__loterias display none">
+                            <div class="ponto ativo"></div>
+                            <div class="ponto"></div>
+                            <div class="ponto"></div>
+                        </div>
+                    </div>
+                    <div class="previsaodotempo display">
+                        <div class="previsao__esquerdo">
+                            <p class="cidade">São Paulo</p>
+                            <p class="data">Terça-feira, 01/01/2023</p>
+                        </div>
+                        <div class="previsao__direito display">
+                            <img src="assets/imagens/icon/brilho-do-sol.png" alt="status">
+                            <div class="dados">
+                                <p>Ensolarado</p>
+                                <p>24° C</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="area4  display">
+                <div class="descricao--headline">
+                    <p class="card--subtitulo">CATEGORIA</p>
+                    <p class="card--titulo">Luana Piovani compartilha novo projeto com seguidores: 'Tão feliz'</p>
+                </div>
+                <div class="descricao--headline">
+                    <p class="card--subtitulo">CATEGORIA</p>
+                    <p class="card--titulo">estreia da Amazon Prime Video em Julho incluem 'Casa Gucci' e 'Spencer'</p>
+                </div>
+                <div class="descricao--headline">
+                    <p class="card--subtitulo">CATEGORIA</p>
+                    <p class="card--titulo">Cinemateca exibe versão restaurada de 'Deus e o diabo na Terra do Sol'</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ad display margem">
+        <div class="publi display">
+            <div class="publi--img">
+
+            </div>
+        </div>
+
+
+
+
+
+
+    </section>
+
+    <section class="ultimosvideos display fonte1 none">
+        <div class="ultimosvideos--itens display">
+            <div class="links display">
+                <div class="itens-videos lado-esquerdo display">
+                    <img src="assets/imagens/img/logo-tiny.png" alt="logo">
+                    <p>INFOMIX TV</p>
+                </div>
+                <div class="itens-botoes lado-direito display">
+                    <p display>VÍDEOS</p>
+                    <p display>SHORTS</p>
+                </div>
+            </div>
+            <div class="setas display">
+                <img src="assets/imagens/icon/next.png" alt="esquerda" class="esquerda">
+                <img src="assets/imagens/icon/next.png" alt="direita">
+            </div>
+            <div class="videos">
+                <div class="videos--cards video1">
+                    <img src="https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1526&q=80"
+                        alt="tumbnail">
+                    <p>Lei proíbe arquitetura hostil no Brasil - Do nosso portal de notícias</p>
+                </div>
+                <div class="videos--cards video2">
+                    <img src="https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1526&q=80"
+                        alt="tumbnail">
+                    <p>Lei proíbe arquitetura hostil no Brasil - Do nosso portal de notícias</p>
+                </div>
+                <div class="videos--cards video3">
+                    <img src="https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1526&q=80"
+                        alt="tumbnail">
+                    <p>Lei proíbe arquitetura hostil no Brasil - Do nosso portal de notícias</p>
+                </div>
+            </div>
+            <div class="reticencias display">
+                <div class="ponto ativo"></div>
+                <div class="ponto"></div>
+                <div class="ponto"></div>
+            </div>
+            <div class="canal display">
+                <img src="assets/imagens/icon/youtube.png" alt="canal">
+                <p>Inscreva-se em nosso Canal no Youtube</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="colunas fonte1">
+        <div class="colunas--itens">
+            <div class="coluna--itens_topo display">
+                <img src="assets/imagens/img/logo-tiny.png" alt="">
+                <p>CULTURA</p>
+            </div>
+            <div class="coluna--itens_baixo display">
+                <div class="coluna--itens_baixo--esquerdo display">
+                    <div class="banner display">
+                        <div class="banner--noticias__topo display">
+                            <div class="item1 display">CATEGORIA</div>
+                            <div class="item2 display">
+                                <img src="assets/imagens/icon/send.png" alt="compartilhe">
+                                <p>Compartilhe</p>
+                            </div>
+                        </div>
+                        <div class="descricao">
+                            <p class="card--subtitulo">MELHOR ARTISTA INTERNACIONAL</p>
+                            <p class="card--titulo">Ludmila se emociona após comparecer a premiação: 'olha só onde o
+                                funk me trouxe'</p>
+                        </div>
+                    </div>
+                    <div class="noticias display">
+                        <div class="area4 display">
+                            <div class="descricao--headline">
+                                <p class="card--subtitulo">CATEGORIA</p>
+                                <p class="card--titulo">Luana Piovani compartilha novo projeto com seguidores: 'Tão
+                                    feliz'</p>
+                            </div>
+                            <div class="descricao--headline">
+                                <p class="card--subtitulo">CATEGORIA</p>
+                                <p class="card--titulo">estreia da Amazon Prime Video em Julho incluem 'Casa Gucci' e
+                                    'Spencer'</p>
+                            </div>
+                            <div class="descricao--headline">
+                                <p class="card--subtitulo">CATEGORIA</p>
+                                <p class="card--titulo">Cinemateca exibe versão restaurada de 'Deus e o diabo na Terra
+                                    do Sol'</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="coluna--itens_baixo--direito display">
+                    <div class="ad display">
+                        <div class="banner">
+
+                        </div>
+                    </div>
+                    <div class="area2">
+                        <div class="descricao--headline display">
+                            <div class="descricao--headline_img">
+                                <img src="https://portalpopline.com.br/wp-content/uploads/2021/09/luana-piovani-influenciadores.jpg"
+                                    alt="artistas">
+                            </div>
+                            <div class="descricao--headline_infos">
+                                <p class="card--subtitulo">FAMOSOS</p>
+                                <p class="card--titulo">Luana Piovani compartilha novo projeto com seguidores: 'Tão
+                                    feliz'</p>
+                            </div>
+                        </div>
+                        <div class="descricao--headline display">
+                            <div class="descricao--headline_img">
+                                <img src="http://store-images.s-microsoft.com/image/apps.32357.14618985536919905.4b30e4f3-f7a1-4421-840c-2cc97b10e8e0.6e7a96f1-33ad-4447-8e2b-7de730f9a05e"
+                                    alt="artistas">
+                            </div>
+                            <div class="descricao--headline_infos">
+                                <p class="card--subtitulo">STREAMING EM ALTA</p>
+                                <p class="card--titulo">Estreias da Amazon Prime Video em Julho incluem 'Casa Gucci' e
+                                    'Spencer'
+                                </p>
+                            </div>
+                        </div>
+                        <div class="descricao--headline display">
+                            <div class="descricao--headline_img">
+                                <img src="https://www.redebrasilatual.com.br/wp-content/uploads/2022/03/cine03.jpeg"
+                                    alt="artistas">
+                            </div>
+                            <div class="descricao--headline_infos">
+                                <p class="card--subtitulo">NA SUA REGIÃO</p>
+                                <p class="card--titulo">Cinemateca exibe versão restaurada de 'Deus e o diabo na Terra
+                                    do Sol'
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="ad display margem">
+        <div class="publi display">
+            <div class="publi--img">
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="videos-por-categoria display fonte1">
+        <div class="itens">
+            <div class="cima display">
+                <div class="logo display">
+                    <div class="coluna--itens_topo display">
+                        <img src="assets/imagens/img/logo-tiny.png" alt="">
+                        <p>VIDEOS</p>
+                    </div>
+                </div>
+                <div class="menu display">
+                    <ul class="display">
+                        <li>Todos os Vídeos</li>
+                        <li>Cinema</li>
+                        <li>Música</li>
+                        <li>teatro</li>
+                        <li>Entrevistas</li>
+                        <li>Entretenimento</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="baixo display">
+                <div class="video-principal display">
+                    <div class="player">
+                        <img src="assets/imagens/icon/play-button.png" alt="player">
+                    </div>
+                    <p>perdeu "masterChef profissionais"? Assista ao episódio desta terça-feira (27)</p>
+                </div>
+                <div class="mais-videos display">
+                    <p>VÍDEOS RELACIONADOS:</p>
+                    <div class="videos-relacionados display">
+                        <div class="videos video1">
+                            <div class="video-principal display">
+                                <div class="player">
+                                    <img src="assets/imagens/icon/play-button.png" alt="player">
+                                </div>
+                                <p>Maroon 5 anuncia residência em Los Angeles após polêmica envolvendo Adam Levine</p>
+                            </div>
+                        </div>
+                        <div class="videos video2">
+                            <div class="video-principal display">
+                                <div class="player">
+                                    <img src="assets/imagens/icon/play-button.png" alt="player">
+                                </div>
+                                <p>Vulcões em erupção: a força avassaladora da natureza em movimento</p>
+                            </div>
+                        </div>
+                        <div class="videos video3">
+                            <div class="video-principal display">
+                                <div class="player">
+                                    <img src="assets/imagens/icon/play-button.png" alt="player">
+                                </div>
+                                <p>Os especialistas alertam para riscos de investimentos em moedas digitais</p>
+                            </div>
+                        </div>
+                        <div class="videos video4">
+                            <div class="video-principal display">
+                                <div class="player">
+                                    <img src="assets/imagens/icon/play-button.png" alt="player">
+                                </div>
+                                <p>Quebra de paradigmas: Bancos apostam em tecnologia para revolucionar serviços
+                                    financeiros</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reticencias display none">
+                        <div class="ponto ativo"></div>
+                        <div class="ponto"></div>
+                        <div class="ponto"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ad display margem">
+        <div class="publi display">
+            <div class="publi--img">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="cards-area1 fonte1 display">
+        <div class="coluna--itens_baixo--direito display">
+            <div class="ad display">
+                <div class="banner">
+
+                </div>
+            </div>
+            <div class="area2">
+                <div class="descricao--headline display">
+                    <div class="descricao--headline_img">
+                        <img src="https://portalpopline.com.br/wp-content/uploads/2021/09/luana-piovani-influenciadores.jpg"
+                            alt="artistas">
+                    </div>
+                    <div class="descricao--headline_infos">
+                        <p class="card--subtitulo">FAMOSOS</p>
+                        <p class="card--titulo">Luana Piovani compartilha novo projeto com seguidores: 'Tão
+                            feliz'</p>
+                    </div>
+                </div>
+                <div class="descricao--headline display">
+                    <div class="descricao--headline_img">
+                        <img src="http://store-images.s-microsoft.com/image/apps.32357.14618985536919905.4b30e4f3-f7a1-4421-840c-2cc97b10e8e0.6e7a96f1-33ad-4447-8e2b-7de730f9a05e"
+                            alt="artistas">
+                    </div>
+                    <div class="descricao--headline_infos">
+                        <p class="card--subtitulo">STREAMING EM ALTA</p>
+                        <p class="card--titulo">Estreias da Amazon Prime Video em Julho incluem 'Casa Gucci' e
+                            'Spencer'
+                        </p>
+                    </div>
+                </div>
+                <div class="descricao--headline display">
+                    <div class="descricao--headline_img">
+                        <img src="https://www.redebrasilatual.com.br/wp-content/uploads/2022/03/cine03.jpeg"
+                            alt="artistas">
+                    </div>
+                    <div class="descricao--headline_infos">
+                        <p class="card--subtitulo">NA SUA REGIÃO</p>
+                        <p class="card--titulo">Cinemateca exibe versão restaurada de 'Deus e o diabo na Terra
+                            do Sol'
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="coluna--itens_baixo--direito2 display">
+            <div class="logo-copa display">
+                <img src="assets/imagens/img/logo copa.png" alt="">
+            </div>
+            <div class="grupos display">
+                <div class="seta-esquerda">
+                    <img src="assets/imagens/icon/seta-esquerda.png" alt="seta">
+                </div>
+                <div>
+                    <p>Grupo A</p>
+                </div>
+                <div class="setadireita">
+                    <img src="assets/imagens/icon/seta-direita.png" alt="seta">
+                </div>
+            </div>
+            <div class="placar display">
+                <p>QAT</p>
+                <img src="assets/imagens/img/qatar.png" alt="pais">
+                <p>1 x 1</p>
+                <img src="assets/imagens/img/equador.png" alt="pais">
+                <p>EQU</p>
+
+            </div>
+            <div class="datas display">
+                <p>18/11/22 - 18:00</p>
+            </div>
+            <div class="reticencias display">
+                <div class="ponto ativo"></div>
+                <div class="ponto"></div>
+                <div class="ponto"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards-area2 display fonte1">
+        <div class="quadrinhos display">
+            <div class="display">
+                <img src="assets/imagens/img/logo-tiny.png" alt="">
+                <h2>QUADRINHOS</h2>
+            </div>
+            <div class="imagem display">
+                <img src="assets/imagens/img/quadrinhos.jpg" alt="">
+            </div>
+            <div class="banda display">
+                <img src="assets/imagens/icon/seta-esquerda.png" alt="">
+                <div class="descricao">
+                    <p>Banda Desenhada</p>
+                    <p>Clóvis</p>
+                </div>
+                <img src="assets/imagens/icon/seta-direita.png" alt="">
+            </div>
+
+        </div>
+        <div class="jornal display">
+            <h2>JORNAL DIGITAL</h2>
+            <img src="assets/imagens/img/jornal digital.jpg" width="100%" alt="jornal">
+
+        </div>
+        <div class="horoscopo display">
+            <div>
+                <h2>HORÓSCOPO</h2>
+                <div class="descricao display">
+                    <p>por</p>
+                    <img src="assets/imagens/icon/nebulosa.png" alt="">
+                    <p>Division</p>
+                </div>
+            </div>
+
+            <div class="signos display">
+                <div class="signo">
+                    <img src="assets/imagens/signos/signo-de-aries.png" alt="signo">
+                    <p>Áries</p>
+                </div>
+                <div class="signo"><img src="assets/imagens/signos/simbolo-do-signo-astrologico-de-touro.png"
+                        alt="signo">
+                    <p>Touro</p>
+                </div>
+                <div class="signo"><img src="assets/imagens/signos/simbolo-do-signo-do-zodiaco-de-gemeos.png"
+                        alt="signo">
+                    <p>Gêmeos</p>
+                </div>
+                <div class="signo"><img src="assets/imagens/signos/simbolo-do-signo-do-zodiaco-de-cancer.png"
+                        alt="signo">
+                    <p>Câncer</p>
+                </div>
+                <div class="signo"><img src="assets/imagens/signos/signo-de-leo.png" alt="signo">
+                    <p>Leão</p>
+                </div>
+                <div class="signo"><img src="assets/imagens/signos/signo-do-simbolo-astrologico-de-virgem.png"
+                        alt="signo">
+                    <p>Virgem</p>
+                </div>
+                <div class="signo"><img src="assets/imagens/signos/signo-astrologico-escorpiao.png" alt="signo">
+                    <p>Escorpião</p>
+                </div>
+                <div class="signo"><img src="assets/imagens/signos/signo-de-libra.png" alt="signo">
+                    <p>Libra</p>
+                </div>
+                <div class="signo"><img src="assets/imagens/signos/sinal-de-seta-sagitariano.png" alt="signo">
+                    <p>Sagitário</p>
+                </div>
+                <div class="signo"><img src="assets/imagens/signos/signo-de-capricornio.png" alt="signo">
+                    <p>Capricórnio</p>
+                </div>
+                <div class="signo"><img src="assets/imagens/signos/simbolo-do-signo-do-zodiaco-aquario.png" alt="signo">
+                    <p>Aquário</p>
+                </div>
+                <div class="signo"><img src="assets/imagens/signos/signo-astrologico-de-peixes.png" alt="signo">
+                    <p>Peixes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cards-area3 display fonte1">
+        <div class="webstories display">
+            <p>WEBSTORIES</p>
+            <div class="itens">
+                <div class="area1 display">
+                    <div class="imagem">
+                        <img src="assets/imagens/img/copa.jpg " alt="">
+                    </div>
+                    <div>
+                        <p>Relembre 8 jogos clássicos do Super Nintendo</p>
+                    </div>
+                </div>
+                <div class="area2 display">
+                    <div class="imagem">
+                        <img src="assets/imagens/img/copa.jpg " alt="">
+                    </div>
+                    <div>
+                        <p>Natália Deodato estreia como atriz em série da Globo</p>
+                    </div>
+                </div>
+                <div class="area3 display">
+                    <div class="imagem">
+                        <img src="assets/imagens/img/copa.jpg " alt="">
+                    </div>
+                    <div>
+                        <p>Quem é o novo personagem que estreia em 'Haloweens Ends'?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="noticias">
+            <div class="area2">
+                <div class="descricao--headline display">
+                    <div class="descricao--headline_img">
+                        <img src="https://portalpopline.com.br/wp-content/uploads/2021/09/luana-piovani-influenciadores.jpg"
+                            alt="artistas">
+                    </div>
+                    <div class="descricao--headline_infos">
+                        <p class="card--subtitulo">FAMOSOS</p>
+                        <p class="card--titulo">Luana Piovani compartilha novo projeto com seguidores: 'Tão feliz'</p>
+                    </div>
+                </div>
+                <div class="descricao--headline display">
+                    <div class="descricao--headline_img">
+                        <img src="http://store-images.s-microsoft.com/image/apps.32357.14618985536919905.4b30e4f3-f7a1-4421-840c-2cc97b10e8e0.6e7a96f1-33ad-4447-8e2b-7de730f9a05e"
+                            alt="artistas">
+                    </div>
+                    <div class="descricao--headline_infos">
+                        <p class="card--subtitulo">STREAMING EM ALTA</p>
+                        <p class="card--titulo">Estreias da Amazon Prime Video em Julho incluem 'Casa Gucci' e 'Spencer'
+                        </p>
+                    </div>
+                </div>
+                <div class="descricao--headline display">
+                    <div class="descricao--headline_img">
+                        <img src="https://www.redebrasilatual.com.br/wp-content/uploads/2022/03/cine03.jpeg"
+                            alt="artistas">
+                    </div>
+                    <div class="descricao--headline_infos">
+                        <p class="card--subtitulo">NA SUA REGIÃO</p>
+                        <p class="card--titulo">Cinemateca exibe versão restaurada de 'Deus e o diabo na Terra do Sol'
+                        </p>
+                    </div>
+                </div>
+                <div class="descricao--headline display">
+                    <div class="descricao--headline_img">
+                        <img src="https://www.redebrasilatual.com.br/wp-content/uploads/2022/03/cine03.jpeg"
+                            alt="artistas">
+                    </div>
+                    <div class="descricao--headline_infos">
+                        <p class="card--subtitulo">NA SUA REGIÃO</p>
+                        <p class="card--titulo">Cinemateca exibe versão restaurada de 'Deus e o diabo na Terra do Sol'
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="enquete">
+            <p>Enquete</p>
+            <p>Quem merece ser convocado por Tite na seleção brasileira?</p>
+            <form class="form display" id="form">
+                <div class="display">
+                    <input type="radio" id="valor1" name="valor1" value="Pedro">
+                    <label for="valor1">
+                        <p>Pedro</p>
+                    </label>
+
+                </div>
+                <div class="display">
+                    <input type="radio" id="valor2" name="valor1" value="Pedro">
+                    <label for="valor2">
+                        <p>gabigol</p>
+                    </label>
+
+                </div>
+                <div class="display">
+                    <input type="radio" id="valor3" name="valor1" value="Pedro">
+                    <label for="valor3">
+                        <p>Pedro e Gabigol</p>
+                    </label>
+
+                </div>
+                <div class="display">
+                    <input type="radio" id="valor4" name="valor1" value="Pedro">
+                    <label for="valor4">
+                        <p>nenhum dos dois</p>
+                    </label>
+
+                </div>
+            </form>
+            <button onclick="nada()">Enviar</button>
+        </div>
+    </section>
+
+    <section class="cards-area4 display fonte1">
+        <div class="coluna--itens_baixo display">
+            <div class="coluna--itens_baixo--esquerdo display">
+                <div class="banner display">
+                    <div class="banner--noticias__topo display">
+                        <div class="item1 display">CATEGORIA</div>
+                        <div class="item2 display">
+                            <img src="assets/imagens/icon/send.png" alt="compartilhe">
+                            <p>Compartilhe</p>
+                        </div>
+                    </div>
+                    <div class="descricao">
+                        <p class="card--subtitulo">MELHOR ARTISTA INTERNACIONAL</p>
+                        <p class="card--titulo">Ludmila se emociona após comparecer a premiação: 'olha só onde o
+                            funk me trouxe'</p>
+                    </div>
+                </div>
+                <div class="noticias display">
+                    <div class="area4 display">
+                        <div class="descricao--headline">
+                            <p class="card--subtitulo">CATEGORIA</p>
+                            <p class="card--titulo">Luana Piovani compartilha novo projeto com seguidores: 'Tão
+                                feliz'</p>
+                        </div>
+                        <div class="descricao--headline">
+                            <p class="card--subtitulo">CATEGORIA</p>
+                            <p class="card--titulo">estreia da Amazon Prime Video em Julho incluem 'Casa Gucci' e
+                                'Spencer'</p>
+                        </div>
+                        <div class="descricao--headline">
+                            <p class="card--subtitulo">CATEGORIA</p>
+                            <p class="card--titulo">Cinemateca exibe versão restaurada de 'Deus e o diabo na Terra
+                                do Sol'</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="coluna--itens_baixo--direito display">
+                <div class="ad display">
+                    <div class="banner">
+
+                    </div>
+                </div>
+                <div class="area2">
+                    <div class="descricao--headline display">
+                        <div class="descricao--headline_img">
+                            <img src="https://portalpopline.com.br/wp-content/uploads/2021/09/luana-piovani-influenciadores.jpg"
+                                alt="artistas">
+                        </div>
+                        <div class="descricao--headline_infos">
+                            <p class="card--subtitulo">FAMOSOS</p>
+                            <p class="card--titulo">Luana Piovani compartilha novo projeto com seguidores: 'Tão
+                                feliz'</p>
+                        </div>
+                    </div>
+                    <div class="descricao--headline display">
+                        <div class="descricao--headline_img">
+                            <img src="http://store-images.s-microsoft.com/image/apps.32357.14618985536919905.4b30e4f3-f7a1-4421-840c-2cc97b10e8e0.6e7a96f1-33ad-4447-8e2b-7de730f9a05e"
+                                alt="artistas">
+                        </div>
+                        <div class="descricao--headline_infos">
+                            <p class="card--subtitulo">STREAMING EM ALTA</p>
+                            <p class="card--titulo">Estreias da Amazon Prime Video em Julho incluem 'Casa Gucci' e
+                                'Spencer'
+                            </p>
+                        </div>
+                    </div>
+                    <div class="descricao--headline display">
+                        <div class="descricao--headline_img">
+                            <img src="https://www.redebrasilatual.com.br/wp-content/uploads/2022/03/cine03.jpeg"
+                                alt="artistas">
+                        </div>
+                        <div class="descricao--headline_infos">
+                            <p class="card--subtitulo">NA SUA REGIÃO</p>
+                            <p class="card--titulo">Cinemateca exibe versão restaurada de 'Deus e o diabo na Terra
+                                do Sol'
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <section class="rodape display">
+            <div class="itens-rodape display">
+                <img src="assets/imagens/img/logo-big-text-medium.png" alt="logo">
+                <div class="redes display">
+                    <img src="assets/imagens/icon/youtube-rodape.png" alt="">
+                    <img src="assets/imagens/icon/facebook.png" alt="">
+                    <img src="assets/imagens/icon/instagram.png" alt="">
+                    <img src="assets/imagens/icon/vimeo.png" alt="">
+                </div>
+                <div class="menu display fonte1">
+                    <ul class="display">
+                        <li>Home</li>
+                        <li>Cultura</li>
+                        <li>Entretenimento</li>
+                        <li>Música</li>
+                        <li>Cinema</li>
+                        <li>Jornal</li>
+                        <li>Agenda</li>
+                        <li>TV</li>
+                        <li>Cultura</li>
+                        <li>Entretenimento</li>
+                        <li>Música</li>
+                        <li>Cinema</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+    </footer>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>
